@@ -152,7 +152,7 @@ git init
 git add main.py run.bat requirements.txt README.md preview.jpg
 git commit -m "Add VR tracking visualization"
 git branch -M main
-git remote add origin https://github.com/YOUR_USERNAME/vr-tracking-visualizer.git
+git remote add origin https://github.com/Philip-pak/vr-tracking-visualizer.git
 git push -u origin main
 ```
 
