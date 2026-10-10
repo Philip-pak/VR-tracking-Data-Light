@@ -6,9 +6,10 @@
 
 Пример обработанного кадра:
 
-![Пример наложения VR-трекинга](overlay_frame.jpg)
+![Пример наложения VR-трекинга](screenshots/overlay_frame.jpg)
 
-Также подготовлен пример видео с наложением на первые 30 секунд: [`overlay_test_30s.mp4`](overlay_test_10s.mp4). В полном запуске скрипт создаёт `overlay_full.mp4`.
+Также подготовлен пример видео с наложением на первые 30 секунд: [`overlay_test_30s.mp4`](overlay_test_10s.mp4). 
+При полном запуске скрипт создаёт `overlay_full.mp4`.
 
 Цветовая легенда в кадре:
 
@@ -44,6 +45,10 @@ vr-tracking-visualizer/
 ├── data/
 │   ├── CameraRecord_20260505_165740.mp4
 │   └── trackingData_20260505_165740.txt
+├── screenshots/
+│   ├── overlay_frame.jpg
+│   └── overlay_test_30s.mp4
+|   └── runbat.png
 └── results/
     ├── overlay_full.mp4
     └── preview.jpg
@@ -57,7 +62,7 @@ vr-tracking-visualizer/
 #### Для запуска без ручного ввода команд можно использовать файл `run.bat` из корневой папки проекта:
 
 
-![Пример наложения VR-трекинга](runbat.png)
+![Пример наложения VR-трекинга](/screenshots/runbat.png)
 
 
 1. Убедитесь, что установлен Python 3 и доступна команда `py -3` в командной строке.
@@ -127,9 +132,10 @@ python main.py `
 
 ## Выходное видео с трекингом
 
-![Выходное видео после рендера](overlay_test_30s.mp4)
-<video src="overlay_test_30s.mp4" controls width="100%"></video>
-[Смотреть демонстрационное видео](overlay_test_30s.mp4)
+![Выходное видео после рендера](https://youtu.be/u3yY83Fyuss)
+
+[Смотреть демонстрационное видео](https://youtu.be/u3yY83Fyuss)
+<video src="https://youtu.be/u3yY83Fyuss" width="560" height="315" controls autostart="1"></video>
 
 ## Наблюдения и сложности
 
