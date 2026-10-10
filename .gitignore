@@ -2,4 +2,4 @@
 __pycache__/
 results/*.mp4
 data/*
-!logs/.gitkeep
+!data/.gitkeep
