@@ -1,8 +1,4 @@
-__pycache__/
 .venv/
+__pycache__/
 data/
-results/
-*.mp4
-*.avi
-*.mov
-*.mkv
+results/*.mp4
