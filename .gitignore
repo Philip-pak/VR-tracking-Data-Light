@@ -1,5 +1,5 @@
 .venv/
 __pycache__/
-data/*.mp4 
-data/*.txt
 results/*.mp4
+data/*
+!logs/.gitkeep
