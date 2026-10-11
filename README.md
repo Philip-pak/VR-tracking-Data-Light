@@ -40,15 +40,13 @@ vr-tracking-visualizer/
 ├── main.py
 ├── run.bat                 # запуск с выбором короткого теста или полного видео
 ├── requirements.txt
-├── README.md
-├── overlay_frame.jpg          # пример кадра для README
-├── overlay_test_30s.mp4        # короткий пример результата
+├── README.md          
 ├── data/
 │   ├── CameraRecord_20260505_165740.mp4
 │   └── trackingData_20260505_165740.txt
 ├── screenshots/
-│   ├── overlay_frame.jpg
-│   └── overlay_test_30s.mp4
+│   ├── overlay_frame.jpg    # пример кадра для README
+│   └── overlay_test_30s.mp4  # короткий пример результата
 |   └── runbat.png
 └── results/
     ├── overlay_full.mp4
